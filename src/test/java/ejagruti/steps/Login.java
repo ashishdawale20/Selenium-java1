@@ -61,6 +61,7 @@ public class Login {
    public void user_gets_the_message_starting_with_on_the_top(String arg1) throws Throwable {
        // Write code here that turns the phrase above into concrete actions
        //throw new PendingException();
+	   System.out.println("test");
    }
 
     
