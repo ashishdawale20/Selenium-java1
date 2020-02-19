@@ -1,0 +1,20 @@
+createcompany_setproperty=webdriver.chrome.driver
+createcompany_property=src\\test\\resources\\DRIVERS\\chromedriver.exe
+createcompany_url=http://localhost:90/finsys/login.html
+createcompany_username=dummyfm
+createcompany_password=passw0rd      
+createcompany_companyname=MyCompany                     
+createcompany_companytype=Manufacturing                     
+createcompany_companysubtype=Automobile                
+createcompany_address=Hinjewadi phase 1                     
+createcompany_phone=7218710933                    
+createcompany_email=samiksha@gmail.com                             
+createcompany_pandetails=HRGH34565H                                  
+createcompany_tindetails=4565768697                                 
+createcompany_mobile=6756444498                                    
+createcompany_website=mycompany.com                   
+createcompany_country=IN                     
+createcompany_state=MAHARASHTRA                              
+createcompany_city=PUNE                                      
+createcompany_totalemployee=2345                      
+

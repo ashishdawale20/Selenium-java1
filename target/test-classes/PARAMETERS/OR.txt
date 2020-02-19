@@ -1,0 +1,28 @@
+Format ---> TestCase_Element: Actual Xpaths
+
+createcompany_username= //input[@placeholder='Username']
+createcompany_password= //input[@placeholder='Password']
+createcompany_login= //a[@onclick='return ValidateLogin()']
+createcompany_company= //span[@class='tree-hit tree-collapsed']
+createcompany_managecompany= //a[@title='Manage Company']
+createcompany_newbutton= //a[@onclick='newItem()']
+createcompany_companyname= //input[@name='name']
+createcompany_companytype= //select[@id='companytype']
+createcompany_companysubtype= //select[@name='subtype']
+createcompany_address= //textarea[@class='textbox-text validatebox-text textbox-prompt']
+createcompany_phone= //input[@class='textbox-text validatebox-text textbox-prompt']
+createcompany_email= //input[@name='email']
+createcompany_pandetails= //input[@name='pan']
+createcompany_tindetails= //input[@name='tin']
+createcompany_mobile= //input[@class='textbox-text validatebox-text textbox-prompt']
+createcompany_website= //input[@name='website']
+createcompany_country= //select[@name='countryname']
+createcompany_state= //select[@name='state']
+createcompany_city= //select[@name='city']
+createcompany_totalemployee= //input[@class='textbox-text validatebox-text textbox-prompt']
+createcompany_savebutton= //a[@onclick='save1(this)']
+
+
+
+
+
