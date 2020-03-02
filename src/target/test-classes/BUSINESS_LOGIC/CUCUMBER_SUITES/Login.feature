@@ -18,12 +18,4 @@ Feature: Login Feature
 
  
   
-  @EndToEnd
-  Scenario: Login Functionality for valid username and invalid password
-  Given user is on the application login page
-  When user enters "dummyfm" as username
-  And user enters "Password" as password
-  And user clicks on login button
-  Then user is on the same login page
-  And user gets the message starting with "Wrong" on the bottom
   

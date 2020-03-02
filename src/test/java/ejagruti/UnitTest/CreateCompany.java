@@ -25,7 +25,7 @@ public class CreateCompany {
 		//STEP 1. Launch Application
 		SeleniumOperations.SetProperty(genericFun.getKeyValue1("createcompany_setproperty"), genericFun.getKeyValue1("createcompany_property"));
 		//System.setProperty(genericFun.getKeyValue1("createcompany_setproperty"),genericFun.getKeyValue1("createcompany_property"));
-		 WebDriver driver=new ChromeDriver(); 
+		//WebDriver driver=new ChromeDriver(); 
 		 
 		 SeleniumOperations.launchUrl( genericFun.getKeyValue1("createcompany_url"));
 		// driver.navigate().to(genericFun.getKeyValue1("createcompany_url")); 
@@ -78,8 +78,8 @@ public class CreateCompany {
 		//driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		
 		Thread.sleep(1000);
+		SeleniumOperations.switchTo("actionid");
 		
-		driver.switchTo().frame("actionid");
 		//STEP 7. Click on New button
 		
 		SeleniumOperations.clickButton(genericFun.getKeyValue("createcompany_newbutton"));
@@ -204,7 +204,7 @@ public class CreateCompany {
 	/*	WebElement Save=driver.findElement(By.xpath(genericFun.getKeyValue("createcompany_savebutton")));
 		Save.click();  */
 		
-		try {
+		/*try {
 	 	    WebDriverWait wait = new WebDriverWait(driver, 2);
 	 	    wait.until(ExpectedConditions.alertIsPresent());
 	 	    Alert alert = driver.switchTo().alert();
@@ -214,6 +214,6 @@ public class CreateCompany {
 	 	 } catch (Exception e) 
 	     {
 	 	  System.out.println(e);
-	     }
+	     }*/
 	}
 }

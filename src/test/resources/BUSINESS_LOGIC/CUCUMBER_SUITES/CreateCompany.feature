@@ -1,24 +1,22 @@
 #Owner=ejagruti
 #CreationDate=24-12-2017 Sunday
-@Login
-Feature: Login Feature
-
-  Background:user is successfully logged in
-  When user opens the "firefox" browser
+Feature: Create company
+Background: user is successfully logged in
+  When user opens the "webdriver.chrome.driver" browser with "src\\test\\resources\\DRIVERS\\chromedriver.exe"
   And user enters the url "http://localhost:90/finsys"
-  Given user is on the application login page
-  When user enters "dummyfm" as username
-  And user enters "passw0rd" as password
-  And user clicks on login button
-  Then user is on the application home page
-  And user gets the message starting with "Welcome" on the top
+  
     
 @EndToEnd
 Scenario: Create Company 
-Given user is on the application home page
+Given user is on the application login page
+    When user enters "dummyfm" as username
+    And user enters "passw0rd" as password
+    And user clicks on login button
+    Then user is on the application home page
+    And user gets the message starting with "Welcome" on the top
 And user clicks  Company 
 And user clicks  Manage Company 
-And User clicks New
+And user clicks New button
 And user enters "MyCompany" as Company Name
 And user enters "Manufacturing" as Company Type
 And user enters "Automobile" as Company Subtype
