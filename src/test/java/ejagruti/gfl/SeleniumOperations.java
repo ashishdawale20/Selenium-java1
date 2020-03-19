@@ -96,25 +96,6 @@ public class SeleniumOperations {
 	 	  System.out.println(e);
 	     }
 	}
-	
-	
-	public static boolean IsElementExists(String xpath)
-	{
-		 try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		
-		 WebElement element = driver.findElement(By.xpath(xpath));
-		 if(element != null)
-			 return true;
-		 else
-			 return false;
-		
-	}
-	
      
 	
 }	

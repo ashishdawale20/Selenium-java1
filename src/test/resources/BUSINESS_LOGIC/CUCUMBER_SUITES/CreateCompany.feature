@@ -8,7 +8,7 @@ Background: user is successfully logged in
     
 @EndToEnd
 Scenario: Create Company 
-Given user is on the application login page
+Given user is on the application login page 
     When user enters "dummyfm" as username
     And user enters "passw0rd" as password
     And user clicks on login button
